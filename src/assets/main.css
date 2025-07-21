@@ -1,0 +1,14 @@
+/* src/assets/main.css */
+
+/* Primeiro, quaisquer regras @import */
+@import "tailwindcss";
+@import './base.css'; 
+  
+/* Depois, o restante do seu CSS personalizado */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

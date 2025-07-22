@@ -223,8 +223,6 @@ const save = async () => {
       toast?.show('Fluxo criado com sucesso!', 'success'); // Usando toast
     }
 
-    // showSuccessAlert.value = true; // Removido
-
     // O setTimeout é ajustado para apenas fechar o modal
     setTimeout(() => {
       emit('close');
